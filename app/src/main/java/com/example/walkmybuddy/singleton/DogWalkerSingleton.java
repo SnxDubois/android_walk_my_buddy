@@ -1,4 +1,4 @@
-package com.example.walkmybuddy;
+package com.example.walkmybuddy.singleton;
 
 import com.example.walkmybuddy.model.DogWalker;
 

@@ -11,6 +11,8 @@ import android.widget.EditText;
 
 import com.example.walkmybuddy.model.Dog;
 import com.example.walkmybuddy.model.DogOwner;
+import com.example.walkmybuddy.singleton.DogOwnerSingleton;
+import com.example.walkmybuddy.singleton.VolleySingleton;
 
 public class RegisterDogActivity extends AppCompatActivity {
 

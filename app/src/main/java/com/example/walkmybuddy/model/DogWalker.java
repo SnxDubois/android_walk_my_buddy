@@ -6,8 +6,17 @@ public class DogWalker {
     private String name;
     private String email;
     private String password;
+    private boolean validated;
 
     public DogWalker() {
+    }
+
+    public boolean isValidated() {
+        return validated;
+    }
+
+    public void setValidated(boolean validated) {
+        this.validated = validated;
     }
 
     public Long getId() {
