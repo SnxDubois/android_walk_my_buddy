@@ -10,7 +10,7 @@ public class DogWalkerSingleton {
     public DogWalkerSingleton() {
     }
 
-    public DogWalkerSingleton getInstance() {
+    public static DogWalkerSingleton getInstance() {
         if (instance == null) {
             instance = new DogWalkerSingleton();
         }

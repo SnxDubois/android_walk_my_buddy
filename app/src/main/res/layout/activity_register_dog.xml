@@ -4,30 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterDogOwnerActivity">
+    tools:context=".RegisterDogActivity">
 
     <TextView
-        android:id="@+id/tvEnterDetails"
-        android:layout_width="wrap_content"
+        android:id="@+id/tvDogDetails"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:layout_marginBottom="32dp"
         android:gravity="center"
-        android:text="Please fill in your personal details"
+        android:text="@string/please_fill_dog_details"
+        android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/etName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/etName"
-        android:layout_width="0dp"
+        android:id="@+id/etDogName"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
@@ -36,62 +35,62 @@
         android:layout_marginRight="32dp"
         android:layout_marginBottom="32dp"
         android:ems="10"
-        android:hint="Name"
+        android:hint="@string/dog_name"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/etEmail"
+        app:layout_constraintBottom_toTopOf="@+id/etDogBreed"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvEnterDetails" />
+        app:layout_constraintTop_toBottomOf="@+id/tvDogDetails" />
 
     <EditText
-        android:id="@+id/etEmail"
-        android:layout_width="0dp"
+        android:id="@+id/etDogBreed"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="50dp"
         android:ems="10"
-        android:hint="Email"
-        android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toTopOf="@+id/etPassword"
+        android:hint="@string/dog_breed"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/btRegisterDog"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etName" />
+        app:layout_constraintTop_toBottomOf="@+id/etDogName" />
 
-    <EditText
-        android:id="@+id/etPassword"
+    <Button
+        android:id="@+id/btRegisterDog"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:layout_marginBottom="64dp"
-        android:ems="10"
-        android:hint="Password (min 8 characters)"
-        android:inputType="textWebPassword"
-        app:layout_constraintBottom_toTopOf="@+id/btRegister"
+        android:text="@string/register_dog"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btSkip"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/etDogBreed" />
 
     <Button
-        android:id="@+id/btRegister"
-        android:layout_width="wrap_content"
+        android:id="@+id/btSkip"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="64dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:padding="20sp"
-        android:text="Register"
+        android:text="Skip and go to walkers list"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
-
+        app:layout_constraintTop_toBottomOf="@+id/btRegisterDog" />
 </android.support.constraint.ConstraintLayout>

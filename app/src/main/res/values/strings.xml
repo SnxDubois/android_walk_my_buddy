@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">WalkMyBuddy</string>
+    <string name="error">Error</string>
+    <string name="fill_your_details">Please fill in all your details</string>
+    <string name="welcome">Welcome To Walk My Buddy App!</string>
+    <string name="registered_dog_owner">I\'m already registered as a Dog Owner</string>
+    <string name="registered_dog_walker">I\'m already registered as a Dog Walker</string>
+    <string name="dog_walker">I\'m a dog walker</string>
+    <string name="dog_owner">I\'m a dog owner</string>
+    <string name="please_fill_personal_details">Please fill in your personal details</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password (min 8 characters)</string>
+    <string name="register">Register</string>
+    <string name="please_fill_dog_details">Please fill in your dog details</string>
+    <string name="dog_name">Dog\'s Name</string>
+    <string name="dog_breed">Dog\'s Breed</string>
+    <string name="register_dog">Register My Dog</string>
+    <string name="email_password_invalid">Your email or password are invalid!</string>
+    <string name="something_wrong">Something went wrong!</string>
 </resources>
