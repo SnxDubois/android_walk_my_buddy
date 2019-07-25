@@ -86,7 +86,7 @@
         android:layout_marginTop="64dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:text="Skip and go to walkers list"
+        android:text="@string/skip_and_go_to_walkers_list"
         android:textColor="@color/black"
         android:textSize="14sp"
         android:textStyle="bold"

@@ -18,4 +18,10 @@
     <string name="register_dog">Register My Dog</string>
     <string name="email_password_invalid">Your email or password are invalid!</string>
     <string name="something_wrong">Something went wrong!</string>
+    <string name="dog_walker_s_list">Dog Walker\'s List</string>
+    <string name="log_out">Log Out</string>
+    <string name="here_s_your_dogs_list">Here\'s your dogs list</string>
+    <string name="skip_and_go_to_walkers_list">Skip and go to walkers list</string>
+    <string name="sign_in">Sign In</string>
+    <string name="validate">Validate</string>
 </resources>
